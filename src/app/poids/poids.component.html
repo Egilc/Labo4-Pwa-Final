@@ -1,0 +1,15 @@
+
+
+<mat-card class="right half-width">
+    <table class="full-width" cellspacing="0"><tr>
+        <td><mat-form-field class="full-width" appearance="fill">
+          <mat-label>Kg</mat-label>
+          <input matInput  [(ngModel)]="kilogrammes" (input)="enLivres()">
+        </mat-form-field></td>
+        <td><mat-form-field class="full-width" appearance="fill">
+          <mat-label>Livres</mat-label>
+          <input matInput  [(ngModel)]="livres" (input)="enKilo()">
+        </mat-form-field></td>
+      </tr></table>
+</mat-card>
+

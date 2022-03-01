@@ -1,0 +1,12 @@
+<mat-card class="right half-width">
+    <table class="full-width" cellspacing="0"><tr>
+        <td><mat-form-field class="full-width" appearance="fill">
+          <mat-label>Km</mat-label>
+          <input matInput  [(ngModel)]="kilometres" (input)="enMiles()">
+        </mat-form-field></td>
+        <td><mat-form-field class="full-width" appearance="fill">
+          <mat-label>Miles</mat-label>
+          <input matInput  [(ngModel)]="miles" (input)="enKilometres()">
+        </mat-form-field></td>
+      </tr></table>
+</mat-card>
